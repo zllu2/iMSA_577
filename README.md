@@ -1,6 +1,6 @@
 # iMSA_577: Machine Learning for Accounting
 
-This is 8 module course. Each module contains:
+This is an 8 module course. Each module contains:
 - One introduction video
 - Three lessons, each lesson contains:
   - One Video
