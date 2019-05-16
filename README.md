@@ -9,5 +9,6 @@ This is an 8 module course. Each module contains:
 - One foundamental assignment(4 problems)
 - One high engagement assignment(5 problems)
 - One quiz(10 questions)
-There is one final project.
+
+There is one final project.  
 There is **no** final exam.
