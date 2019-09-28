@@ -1,0 +1,7 @@
+assignment,duedate,timestamp,student_id,last_name,first_name,email,raw_score,late_submission_penalty,score,max_score
+Module1,,2019-09-17 15:02:02.430871,lindenlu,,,,6.0,0.0,6.0,9.0
+Module2,,,lindenlu,,,,0.0,0.0,0.0,9.0
+Module3,,,lindenlu,,,,0.0,0.0,0.0,13.0
+module1,,,lindenlu,,,,0.0,0.0,0.0,9.0
+module2,,,lindenlu,,,,0.0,0.0,0.0,9.0
+module3,,,lindenlu,,,,0.0,0.0,0.0,13.0
