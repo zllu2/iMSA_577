@@ -1,0 +1,60 @@
+ColumnName,Description
+acc_now_delinq,The number of accounts on which the borrower is now delinquent.
+addr_state,The state provided by the borrower in the loan application
+annual_inc,The self-reported annual income provided by the borrower during registration.
+application_type,Indicates whether the loan is an individual application or a joint application with two co-borrowers
+chargeoff_within_12_mths,Number of charge-offs within 12 months
+collection_recovery_fee,post charge off collection fee
+collections_12_mths_ex_med,Number of collections in 12 months excluding medical collections
+debt_settlement_flag,"Flags whether or not the borrower, who has charged-off, is working with a debt-settlement company."
+debt_settlement_flag_date,The most recent date that the Debt_Settlement_Flag has been set  
+delinq_2yrs,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+delinq_amnt,The past-due amount owed for the accounts on which the borrower is now delinquent.
+disbursement_method,"The method by which the borrower receives their loan. Possible values are: CASH, DIRECT_PAY"
+dti,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+earliest_cr_line,The month the borrower's earliest reported credit line was opened
+emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
+emp_title,The job title supplied by the Borrower when applying for the loan.*
+funded_amnt,The total amount committed to that loan at that point in time.
+funded_amnt_inv,The total amount committed by investors for that loan at that point in time.
+grade,LC assigned loan grade
+hardship_flag,Flags whether or not the borrower is on a hardship plan
+home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER"
+initial_list_status,"The initial listing status of the loan. Possible values are – W, F"
+inq_last_6mths,The number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+installment,The monthly payment owed by the borrower if the loan originates.
+int_rate,Interest Rate on the loan
+issue_d,The month which the loan was funded
+last_credit_pull_d,The most recent month LC pulled credit for this loan
+last_pymnt_amnt,Last total payment amount received
+last_pymnt_d,Last month payment was received
+loan_amnt,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+loan_status,Current status of the loan
+mths_since_last_delinq,The number of months since the borrower's last delinquency.
+mths_since_last_major_derog,Months since most recent 90-day or worse rating
+mths_since_last_record,The number of months since the last public record.
+next_pymnt_d,Next scheduled payment date
+open_acc,The number of open credit lines in the borrower's credit file.
+out_prncp,Remaining outstanding principal for total amount funded
+out_prncp_inv,Remaining outstanding principal for portion of total amount funded by investors
+policy_code,"publicly available policy_code=1
+new products not publicly available policy_code=2"
+pub_rec,Number of derogatory public records
+pub_rec_bankruptcies,Number of public record bankruptcies
+purpose,A category provided by the borrower for the loan request. 
+pymnt_plan,Indicates if a payment plan has been put in place for the loan
+recoveries,post charge off gross recovery
+revol_bal,Total credit revolving balance
+revol_util,"Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit."
+sub_grade,LC assigned loan subgrade
+tax_liens,Number of tax liens
+term,The number of payments on the loan. Values are in months and can be either 36 or 60.
+title,The loan title provided by the borrower
+total_acc,The total number of credit lines currently in the borrower's credit file
+total_pymnt,Payments received to date for total amount funded
+total_pymnt_inv,Payments received to date for portion of total amount funded by investors
+total_rec_int,Interest received to date
+total_rec_late_fee,Late fees received to date
+total_rec_prncp,Principal received to date
+verification_status,"Indicates if income was verified by LC, not verified, or if the income source was verified"
+zip_code,The first 3 numbers of the zip code provided by the borrower in the loan application.
