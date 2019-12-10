@@ -7,8 +7,8 @@ Choices: ...
 # Lesson 1:
 - Question 1.1: In a regression, the difference between the observed value and the predicted value is?
   - Type: Multiple choice (single correct response)
-  - Answer: residual
-  - Choices: residual; mean absolute error; mean squared error; root mean squared error
+  - Answer: Residual
+  - Choices: Residual; Mean absolute error; Mean squared error; Root mean squared error
 - Question 1.2: True of False? The higher the R-Squared, the better the regression model.
   - Type: Multiple choice (single correct response)
   - Answer: True
@@ -30,7 +30,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 2.4: True of False? Mean Absolute Error has same unit as the original dependent variable.
+- Question 2.4: True or False? Mean Absolute Error has same unit as the original dependent variable.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
@@ -39,15 +39,15 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 3.2: True of False? Mean Squared Error is sensitive to outliers.
+- Question 3.2: True or False? Mean Squared Error is sensitive to outliers.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: False
-- Question 3.3: True of False? Mean Squared Error is NOT sensitive to outliers.
+- Question 3.3: True or False? Mean Squared Error is NOT sensitive to outliers.
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False
-- Question 3.4: True of False? Mean Squred Error has same unit as the original dependent variable.
+- Question 3.4: True or False? Mean Squred Error has same unit as the original dependent variable.
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False
@@ -83,7 +83,7 @@ Choices: ...
   - Answer: True
   - Choices: True, False
 
-- Question 6.1: Which module is classification_report() function in?
+- Question 6.1: In which module is classification_report() function defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.metrics
   - Choices: sklearn.metrics, sklearn.preprocessing; sklearn.model_selection
@@ -92,40 +92,40 @@ Choices: ...
   - Answer: False
   - Choices: True, False
 
-- Question 7.1: In which case we want to avoid type 1 error(false positive)?
+- Question 7.1: In which case do we want to avoid type 1 error(false positive)?
   - Type: Multiple choice (single correct response)
-  - Answer: criminal trial
-  - Choices: criminal trial; cancer screening;
-- Question 7.2: In which case we want to avoid type 2 error(false negative)?
+  - Answer: Criminal trial
+  - Choices: Criminal trial; Cancer screening;
+- Question 7.2: In which case do we want to avoid type 2 error(false negative)?
   - Type: Multiple choice (single correct response)
-  - Answer: cancer screening
-  - Choices: criminal trial; cancer screening;
+  - Answer: Cancer screening
+  - Choices: Criminal trial; Cancer screening;
 
-- Question 8.1: In a ROC plot, the diagonal line is the ROC curve for a:
+- Question 8.1: In an ROC plot, the diagonal line is the ROC curve for a :
   - Type: Multiple choice (single correct response)
   - Answer: model that predicts randomly.
   - Choices: model that predicts randomly; perfect model;
-- Question 8.2: In a ROC plot, the left vertical line and the top horizontal line is the ROC curve for a:
+- Question 8.2: In an ROC plot, the left vertical line and the top horizontal line is the ROC curve for a:
   - Type: Multiple choice (single correct response)
   - Answer: perfect model.
   - Choices: model that predicts randomly; perfect model;
 
-class_weight={0:1.0, 1:0.0}
-- Question 9.1: If set class_weight={0:1.0, 1:0.0} to a classification model, the model will classify all data as:
+class_weight = {0:1.0, 1:0.0}
+- Question 9.1: If set class_weight = {0:1.0, 1:0.0} to a classification model, the model will classify all data as:
   - Type: Multiple choice (single correct response)
   - Answer: 0
   - Choices: 0; 1;
-  class_weight={0:1.0, 1:0.0}
-- Question 9.1: If set class_weight={0:0.0, 1:1.0} to a classification model, the model will classify all data as:
+  class_weight = {0:1.0, 1:0.0}
+- Question 9.1: If set class_weight = {0:0.0, 1:1.0} to a classification model, the model will classify all data as:
   - Type: Multiple choice (single correct response)
   - Answer: 1
   - Choices: 0; 1;
 
-- Question 10.1: Which module is roc_curve() function in?
+- Question 10.1: In which module is roc_curve() function defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.metrics
   - Choices: sklearn.metrics, sklearn.preprocessing; sklearn.model_selection
-- Question 10.2: Which module is auc() function in?
+- Question 10.2: In which module is auc() function defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.metrics
   - Choices: sklearn.metrics, sklearn.preprocessing; sklearn.model_selection

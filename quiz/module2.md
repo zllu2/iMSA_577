@@ -21,7 +21,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 3.1: Which module is LinearRegression estimator in?
+- Question 3.1: In which module is LinearRegression defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.linear_model
   - Choices: sklearn.linear_model; sklearn.model_selection; sklearn.tree
@@ -33,7 +33,7 @@ Choices: ...
   - Type: Multiple choice (single correct responses)
   - Answer: intercept_
   - Choices: coef_; coef; intercept_; intercept
-- Question 4.1: Which module is function dmatrices() in?
+- Question 4.1: In which module is function dmatrices() defined in?
   - Type: Multiple choice (single correct responses)
   - Answer: pasty
   - Choices: sklean; pasty; pts;
@@ -47,11 +47,11 @@ Choices: ...
   - Choices: 400; 600; 1000
 
 # Lesson 2:
-- Question 5.1: True or False? Logistic function maps real numbers into the range  [0,1].
+- Question 5.1: True or False? Logistic function maps real numbers into the range [0,1].
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 5.2: Which module is LogisticRegression estimator in?
+- Question 5.2: In which module is LogisticRegression defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.linear_model
   - Choices: sklearn.linear_model; sklearn.model_selection; sklearn.tree
@@ -64,25 +64,25 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False
-- Question 7.1: If a classification model predicts 80 out of 100 positive class correctly, and 60 out of 100 negative class correctly. What is the model's accuracy score?
+- Question 7.1: If a classification model predicts 80 out of 100 positive class correctly, and 60 out of 100 negative class correctly, what is the model's accuracy score?
   - Type: Multiple choice (single correct response)
   - Answer: 0.7
   - Choices: 0.6; 0.7; 0.8
-- Question 7.2: If a classification model predicts 80 out of 100 positive class correctly, and 60 out of 100 negative class correctly. What is the model's recall rate on positive class?
+- Question 7.2: If a classification model predicts 80 out of 100 positive class correctly, and 60 out of 100 negative class correctly, what is the model's recall rate on positive class?
   - Type: Multiple choice (single correct response)
   - Answer: 0.8
   - Choices: 0.6; 0.7; 0.8
-- Question 7.3: If a classification model predicts 80 out of 100 positive class correctly, and 60 out of 100 negative class correctly. What is the model's recall rate on negative class?
+- Question 7.3: If a classification model predicts 80 out of 100 positive class correctly, and 60 out of 100 negative class correctly, what is the model's recall rate on negative class?
   - Type: Multiple choice (single correct response)
   - Answer: 0.6
   - Choices: 0.6; 0.7; 0.8
 
 # Lesson 3:
-- Question 8.1: Which module is DecisionTreeClassifier estimator in?
+- Question 8.1: In which module is DecisionTreeClassifier defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.tree
   - Choices: sklearn.linear_model; sklearn.model_selection; sklearn.tree
-- Question 8.2: Which module is DecisionTreeRegressor estimator in?
+- Question 8.2: In which module is DecisionTreeRegressor defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.tree
   - Choices: sklearn.linear_model; sklearn.model_selection; sklearn.tree
@@ -95,7 +95,7 @@ Choices: ...
   - Answer: False
   - Choices: True, False
 
-- Question 9.1: When an algorithm model the training data too well and do not generalize to unseen data, it's called:
+- Question 9.1: When an algorithm model fits the training data too well and does not generalize to unseen data, it's called:
   - Type: Multiple choice (single correct response)
   - Answer: overfitting
   - Choices: underfitting; overfitting;
@@ -104,16 +104,16 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 9.3: Which attribute in a decision tree classifier contains Gini importance score for training features?
+- Question 9.3: Which attribute in a decision tree classifier contains a Gini importance score for training features?
   - Type: Multiple choice (single correct response)
   - Answer: feature_importances_
   - Choices: feature_importances_; feature_importances
 
-- Question 10.1: True or False? Decision tree can handle numerical categorical feature directly so we don't need to create dummy features for those features.
+- Question 10.1: True or False? Decision tree can handle numerical categorical features directly, so we don't need to create dummy features for those features.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 10.2: True or False? Decision tree CAN NOT handle numerical categorical feature directly so we have to create dummy features for those features.
+- Question 10.2: True or False? Decision tree CAN NOT handle numerical categorical features directly, so we have to create dummy features for those features.
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False

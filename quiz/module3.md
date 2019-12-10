@@ -5,11 +5,11 @@ Answer: ...
 Choices: ...  
 
 # Lesson 1:
-- Question 1.1: Which module is KNeighborsClassifier estimator in?
+- Question 1.1: In which module is KNeighborsClassifier defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.neighbors
   - Choices: sklearn.linear_model; sklearn.tree; sklearn.neighbors; sklearn.svm
-- Question 1.2: Which module is KNeighborsRegressor estimator in?
+- Question 1.2: In which module is KNeighborsRegressor defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.neighbors
   - Choices: sklearn.linear_model; sklearn.tree; sklearn.neighbors; sklearn.svm
@@ -27,7 +27,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 3.2: True or False? Scaling or standardizing features normally would improve the performance of k-Nearest Neighbor models.
+- Question 3.2: True or False? Scaling or standardizing features would normally improve the performance of k-Nearest Neighbor models.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
@@ -38,11 +38,11 @@ Choices: ...
 
 
 # Lesson 2:
-- Question 4.1: Which module is SVC estimator in?
+- Question 4.1: In which module is SVC defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.svm
   - Choices: sklearn.linear_model; sklearn.tree; sklearn.neighbors; sklearn.svm
-- Question 4.2: Which module is SVR estimator in?
+- Question 4.2: In which module is SVR defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.svm
   - Choices: sklearn.linear_model; sklearn.tree; sklearn.neighbors; sklearn.svm
@@ -56,7 +56,7 @@ Choices: ...
   - Answer: False
   - Choices: True, False
 
-- Question 6.1: True or False? The training process of Support Vector Machine can be very slow, especially with non linear kernels and large dataset.
+- Question 6.1: True or False? The training process of Support Vector Machine can be very slow, especially with non-linear kernels and large dataset.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
@@ -66,11 +66,11 @@ Choices: ...
   - Choices: True, False
 
 # Lesson 3:
-- Question 7.1: Which module is RandomForestClassifier estimator in?
+- Question 7.1: In which module is RandomForestClassifier defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.ensemble
   - Choices: sklearn.linear_model; sklearn.ensemble; sklearn.neighbors; sklearn.svm
-- Question 7.2: Which module is RandomForestRegressor estimator in?
+- Question 7.2: In which module is RandomForestRegressor defined in?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.ensemble
   - Choices: sklearn.linear_model; sklearn.ensemble; sklearn.neighbors; sklearn.svm
@@ -83,7 +83,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False
-- Question 8.3: True or False? RandomForestClassifier and RandomForestRegressor employ same set of hyperparameters.
+- Question 8.3: True or False? RandomForestClassifier and RandomForestRegressor employ the same set of hyperparameters.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
@@ -92,7 +92,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 9.2: True or False? Bootstrap is a general procedure that can be use to reduce the variance.
+- Question 9.2: True or False? Bootstrap is a general procedure that can be used to reduce the variance.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False

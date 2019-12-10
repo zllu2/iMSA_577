@@ -63,17 +63,17 @@ Choices: ...
   - Answer: sklearn.model_selection
   - Choices: sklearn.preprocessing; sklearn.encoding; sklearn.model_selection
 
-- Question 5.2: A dataset has 100 rows. Use train_test_split to split the dataset with test_size=0.3. How many rows there are in the training dataset?
+- Question 5.2: A dataset has 100 rows. Use train_test_split to split the dataset with test_size=0.3. How many rows are there in the training dataset?
     - Type: Multiple Choice (Single Correct Answer)
     - Answer: 70
     - Choices: 70; 30; 100
 
-- Question 5.3: A dataset has 100 rows. Use train_test_split to split the dataset with test_size=0.3. How many rows there are in the testing dataset?
+- Question 5.3: A dataset has 100 rows. Use train_test_split to split the dataset with test_size=0.3. How many rows are there in the testing dataset?
     - Type: Multiple Choice (Single Correct Answer)
-    - Answer: 70
+    - Answer: 30
     - Choices: 70; 30; 100
 
-- Question 6.1: Which module is StandardScaler imported from?
+- Question 6.1: From which module is StandardScaler imported?
   - Type: Multiple Choice (Single Correct Answer)
   - Answer: sklearn.preprocessing
   - Choices: sklearn.preprocessing; sklearn.encoding; sklearn.model_selection
@@ -95,17 +95,17 @@ Choices: ...
 
 # Lesson 3:
 
-- Question 8.1: df is a Pandas DataFrame, which of the following code displays the first 5 rows of df?
+- Question 8.1: df is a Pandas DataFrame, Which of the following code displays the first 5 rows of df?
   - Type: Multiple Choice (Single Correct Answer)
   - Answer: df.head(5)
   - Choices: df.head(5); df.tail(5), df.sample(5)
 
-- Question 8.2: df is a Pandas DataFrame, which of the following code displays the last 5 rows of df?
+- Question 8.2: df is a Pandas DataFrame, Which of the following code displays the last 5 rows of df?
   - Type: Multiple Choice (Single Correct Answer)
   - Answer: df.tail(5)
   - Choices: df.head(5); df.tail(5), df.sample(5)
 
-- Question 8.3: df is a Pandas DataFrame, which of the following code displays 5 random rows of df?
+- Question 8.3: df is a Pandas DataFrame, Which of the following code displays 5 random rows of df?
   - Type: Multiple Choice (Single Correct Answer)
   - Answer: df.sample(5)
   - Choices: df.head(5); df.tail(5), df.sample(5)
@@ -120,12 +120,12 @@ Choices: ...
   - Answer: True
   - Choices: True; False
 
-- Question 10.1: df is a Pandas DataFrame, which of the following code displays a brief statistical summary of df?
+- Question 10.1: df is a Pandas DataFrame, Which of the following code displays a brief statistical summary of df?
   - Type: Multiple Choice (Single Correct Answer)
   - Answer: df.describe()
   - Choices: df.info(); df.describe()
 
-- Question 10.2: df is a Pandas DataFrame, which of the following code prints information of df including the index dtype and column dtypes, non-null values etc?
+- Question 10.2: df is a Pandas DataFrame, Which of the following code prints information of df including the index dtype and column dtypes, non-null values, etc.?
   - Type: Multiple Choice (Single Correct Answer)
   - Answer: df.info()
   - Choices: df.info(); df.describe()

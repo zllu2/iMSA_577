@@ -1,6 +1,6 @@
 Format:
 Question: ...  
-Type: Multiple Choice (Single Correct Answer),  Multiple Choice (Multiple Correct Answers), Free Response (Text Answers, Code Expression)
+Type: Multiple Choice (Single Correct Answer), Multiple Choice (Multiple Correct Answers), Free Response (Text Answers, Code Expression)
 Answer: ...  
 Choices: ...  
 
@@ -18,11 +18,11 @@ Choices: ...
   - Answer: split()
   - Choices: lower(); upper(); islower(); split()
 
-- Question 2.1: Which module is stopword defined in?
+- Question 2.1: In which module is stopword defined?
   - Type: Multiple choice (single correct response)
   - Answer: nltk.corpus
   - Choices: nltk.corpus; nltk.stem; sklearn.feature_extraction.text
-- Question 2.1: Which module is PotterStemmer defined in?
+- Question 2.1: In which module is PotterStemmer defined?
   - Type: Multiple choice (single correct response)
   - Answer: nltk.stem
   - Choices: nltk.corpus; nltk.stem; sklearn.feature_extraction.text
@@ -39,11 +39,11 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True; False
-- Question 4.1: Which module is CountVectorizer defined in?
+- Question 4.1: In which module is CountVectorizer defined?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.feature_extraction.text
   - Choices: nltk.corpus; nltk.stem; sklearn.feature_extraction.text
-- Question 4.2: Which module is TfidfVectorizer defined in?
+- Question 4.2: In which module is TfidfVectorizer defined?
   - Type: Multiple choice (single correct response)
   - Answer: sklearn.feature_extraction.text
   - Choices: nltk.corpus; nltk.stem; sklearn.feature_extraction.text
@@ -58,20 +58,20 @@ Choices: ...
 
 # Lesson 2:
 
-- Question 6.1: Trur of False? Bayes Theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+- Question 6.1: Trur or False? Bayes Theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
   - Type: Multiple choice (multiple correct response)
   - Answer: True
   - Choices: True; False
-- Question 6.2: Which module is MultinomialNB defined in?
+- Question 6.2: In which module is MultinomialNB defined?
   - Type: Multiple choice (multiple correct response)
   - Answer: sklearn.naive_bayes
   - Choices: sklearn.naive_bayes; nltk.naive_bayes
 
-- Question 7.1: Which text data set is a CountVectorizer object fit on?
+- Question 7.1: On which text data set is a CountVectorizer object fit?
   - Type: Multiple choice (single correct response)
   - Answer: training text data
   - Choices: training text data; testing text data; both training and texting data
-- Question 7.2: Which text data set is a TfidfVectorizer object fit on?
+- Question 7.2: On which text data set is a TfidfVectorizer object fit?
   - Type: Multiple choice (single correct response)
   - Answer: training text data
   - Choices: training text data; testing text data; both training and texting data
