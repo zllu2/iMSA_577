@@ -5,24 +5,24 @@ Answer: ...
 Choices: ...  
 
 # Lesson 1
-- Question 1.1: What is the starting point for time data(epoch)?
+- Question 1.1: What is the starting point for time data (epoch)?
   - Type: Multiple choice (single correct response)
   - Answer: January 1, 1970
   - Choices:January 1, 1970, January 1, 0000, January 1, 1950
 - Question 1.2: True or False? Epoch time is defined in UTC timezone.
   - Type: Multiple choice (single correct response)
   - Answer: True
-  - Choices:True; False
+  - Choices: True; False
 
 - Question 2.1: What library effectively deals with dates and times from around the world?
   - Type: Multiple choice (single correct response)
   - Answer: datetime
-  - Choices:datetime, numpy, pandas
+  - Choices: datetime, numpy, pandas
 - Question 2.2: Which function or class allows you to perform math operations on times and dates?
   - Type: Multiple choice (single correct response)
   - Answer: datetime.timedelta
   - Choices: datetime.timedelta, datetime, datetime.datetime, date.time.math
-- Question 2.3: Which module is timedelta defined in?
+- Question 2.3: In which module is timedelta defined?
   - Type: Multiple choice (single correct response)
   - Answer: datetime
   - Choices: datetime, date, time, pandas
@@ -31,7 +31,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: strftime
   - Choices: strftime, strptime
-- Question 3.2: Which datetime function allows you to convert a datatime string to a datetime object?
+- Question 3.2: Which datetime function allows you to convert a datetime string to a datetime object?
   - Type: Multiple choice (single correct response)
   - Answer: strptime
   - Choices: strftime, strptime
@@ -54,7 +54,7 @@ Choices: ...
   - Answer: 1944-06-06
   - Choices: June 6, 1944; 06/06/1944; 1944-06-06
 
-- Question 6.1: Which pandas function convert a column of datatime string to a column of datetime object?
+- Question 6.1: Which pandas function convert a column of datetime string to a column of datetime object?
   - Type: Multiple choice (single correct response)
   - Answer: to_datetime()
   - Choices: to_datetime(); strptime()
@@ -64,7 +64,7 @@ Choices: ...
   - Choices:True; False
 
 # Lesson 2
-- Question 7.1: Which pandas function convert a column of datatime object to a datetime index?
+- Question 7.1: Which pandas function convert a column of datetime object to a datetime index?
   - Type: Multiple choice (single correct response)
   - Answer: to_datetime()
   - Choices: to_datetime(); strptime(); DatetimeIndex()
@@ -93,9 +93,9 @@ Choices: ...
 
 - Question 10.1: In seasonal decomposition, what is the repeating short-term cycle in the series?
   - Type: Multiple Choice (Single Correct Answer)
-  - Answer: seasonality
-  - Choices: level; trend; seasonality; noise
+  - Answer: Seasonality
+  - Choices: Level; Trend; Seasonality; Noise
 - Question 10.2: In seasonal decomposition, what is the random variation in the series?
   - Type: Multiple Choice (Single Correct Answer)
-  - Answer: noise
-  - Choices: level; trend; seasonality; noise
+  - Answer: Noise
+  - Choices: Level; Trend; Seasonality; Noise
