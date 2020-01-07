@@ -17,4 +17,6 @@ c.ClearSolutions.code_stub = {'python': '# YOUR CODE HERE\n'}
 ## A key that is unique per instructor and course. This can be specified, either
 #  by setting the config option, or using the --course option on the command
 #  line.
-c.CourseDirectory.course_id = 'accy577_linden_test'
+c.CourseDirectory.course_id = 'accy577_test'
+
+c.Exchange.root = '/Users/lindenlu/uiuc/Spring_2019/iMSA577_Redesign/coursera_nbgrader_setup/srv/nbgrader/exchange'

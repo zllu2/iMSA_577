@@ -101,6 +101,7 @@ Choices: ...
   - Answer: Cancer screening
   - Choices: Criminal trial; Cancer screening;
 
+# Lesson 3
 - Question 8.1: In an ROC plot, the diagonal line is the ROC curve for a :
   - Type: Multiple choice (single correct response)
   - Answer: model that predicts randomly.
@@ -110,12 +111,10 @@ Choices: ...
   - Answer: perfect model.
   - Choices: model that predicts randomly; perfect model;
 
-class_weight = {0:1.0, 1:0.0}
 - Question 9.1: If set class_weight = {0:1.0, 1:0.0} to a classification model, the model will classify all data as:
   - Type: Multiple choice (single correct response)
   - Answer: 0
   - Choices: 0; 1;
-  class_weight = {0:1.0, 1:0.0}
 - Question 9.1: If set class_weight = {0:0.0, 1:1.0} to a classification model, the model will classify all data as:
   - Type: Multiple choice (single correct response)
   - Answer: 1

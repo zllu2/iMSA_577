@@ -13,15 +13,15 @@ cd /grader
 # Unique Part Ids for each assignment part that will be graded using this grader.
 # These are exposed in Coursera's authoring tools for each programming assignment part.
 
-# Modified PartIDs(launchid) for Spring 2020 ACCY577 MOOC Assignment
-MODULE1_GRADER_PART_ID="QL7c2"
-MODULE2_GRADER_PART_ID="7YfGm"
-MODULE3_GRADER_PART_ID="xa0LG"
-MODULE4_GRADER_PART_ID="EP2fk"
-MODULE5_GRADER_PART_ID="TMKNf"
-MODULE6_GRADER_PART_ID="Bp0aI"
-MODULE7_GRADER_PART_ID="IqhqT"
-MODULE8_GRADER_PART_ID="V4QmL"
+# Modified PartIDs for Spring 2020 ACCY577 MOOC Assignment
+MODULE1_GRADER_PART_ID="Y7PLZ"
+MODULE2_GRADER_PART_ID="hqAcB"
+MODULE3_GRADER_PART_ID="VNZJ9"
+MODULE4_GRADER_PART_ID="OGPxK"
+MODULE5_GRADER_PART_ID="aSRYC"
+MODULE6_GRADER_PART_ID="gPzG3"
+MODULE7_GRADER_PART_ID="Dpq22"
+MODULE8_GRADER_PART_ID="7uOYO"
 
 # Parse the command line arguments supplied by Coursera.
 while [[ $# > 1 ]]

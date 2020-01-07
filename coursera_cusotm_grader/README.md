@@ -3,7 +3,7 @@
 # Major steps:
 
 1. Create assignments with nbgrader, generate release(generate_assignment)
-2. Create programming assignment on Coursera, get graded_item_id from URL. ie. 5FK0X (/programming/5FK0X?versionId=..), partId and file name(ie. m1_assignment.ipynb)
+2. Create programming assignment on Coursera, get graded_item_id from URL. ie. 5FK0X (/programming/5FK0X?versionId=..), Add Programming Assignment Score part to get partId and file name(ie. m1_assignment.ipynb)
 3. Create notebook assignment, get launchid from URL, ie. w5fdK(.../notebook/w5fdK/launcher?)
 4. Modify assignment notebook metadata, add coursera block including course_slug, graded_item_id and launch_item_id.
 5. Run nbgrader generate_assignment Module1 --force to create release version.
@@ -20,6 +20,13 @@
 11. Run test.sh to test
     - Make sure shared/submissions/assignmenti_low.ipynb exists in current folder
 12. Build and Upload docker tar file to coursera program assignment
+zip following files and upload zip file to coursera custom grader.
+    - Dockerfile
+    - execute_grader.sh
+    - exporter.py
+    - nbgrader_config.py
+    - source(only keep low assignment in each module)
+
 
 # Refresh notebook on coursera
 1. Upload new notebook from Instructor workspace
