@@ -88,18 +88,18 @@ sudo pip install courseraprogramming
 
 ACCY577:
 course-slug: machine-learning-accounting-python
-module 1 itemid: 1nckY launchid:QL7c2
-module 2 itemid: zCbq1 launchid:7YfGm
-module 3 itemid: HvbED launchid:xa0LG
-module 4 itemid: lKTm1 launchid:EP2fk
-module 5 itemid: bgKXX launchid:TMKNf
-module 6 itemid: nMM73 launchid:Bp0aI
-module 7 itemid: 5mKNj launchid:IqhqT
-module 8 itemid: 0806u launchid:V4QmL
+module 1 itemid: sd7LJ launchid:QL7c2
+module 2 itemid: OqCj3 launchid:7YfGm
+module 3 itemid: gfjyw launchid:xa0LG
+module 4 itemid: lgFvU launchid:EP2fk
+module 5 itemid: UJfSA launchid:TMKNf
+module 6 itemid: w2uye launchid:Bp0aI
+module 7 itemid: stwVH launchid:IqhqT
+module 8 itemid: nRoA5 launchid:V4QmL
 
 
 # Copy files to coursera
-Run ./copy_files.sh to create zip files for lesson and assignments
+In coursera_cusotm_grader run ./copy_files.sh to create zip files for lesson and assignments
 Upload zip files to coursera through instructor Workspace
 Open a new notebook and run following.
 Remove existing folder first with !rm -r Assignments/Lessons if necessary.
