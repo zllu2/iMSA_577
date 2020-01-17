@@ -1,0 +1,184 @@
+<p><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+<title>ACCY 576: Data Preparation for Accounting</title>
+</p>
+<div role="main">
+<h1 id="a11">ACCY 577: Machine Learning for Accounting</h1>
+<ul>
+<li><a href="#a1">Course Description</a></li>
+<li><a href="#a2">Goals, Objectives, and Topics</a></li>
+<li><a href="#a3">Materials</a></li>
+<li><a href="#a4">Elements of the Course</a></li>
+<li><a href="#a5">Assignments, Exams, and Grading</a></li>
+<li><a href="#a6">Communication</a></li>
+<li><a href="#a7">University Honor Code</a></li>
+<li><a href="#a8">Disability Resources and Educational Services</a></li>
+</ul>
+<h2 id="a1">Course Description</h2>
+</div>
+<p data-key="494"><span data-key="495"><span data-offset-key="495:0">This course introduces machine learning algorithms (models) and their applications in accounting problems. It covers classification, regression, clustering, text analysis, time series analysis. It also discusses model evaluation and model optimization. This course provides an entry point for students to be able to apply proper machine learning models on business related datasets with Python to solve various problems. </span></span></p>
+<p data-key="496" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMlRoaXMlMjBjb3Vyc2UlMjBpbnRyb2R1Y2VzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwYWxnb3JpdGhtcyUyMGFuZCUyMHRoZWlyJTIwYXBwbGljYXRpb25zJTIwaW4lMjBhY2NvdW50aW5nJTIwcHJvYmxlbXMuJTIwSXQlMjBjb3ZlcnMlMjBjbGFzc2lmaWNhdGlvbiUyQyUyMHJlZ3Jlc3Npb24lMkMlMjBjbHVzdGVyaW5nJTJDJTIwdGV4dCUyMGFuYWx5c2lzJTJDJTIwdGltZSUyMHNlcmllcyUyMGFuYWx5c2lzLiUyMEl0JTIwYWxzbyUyMGRpc2N1c3NlcyUyMG1vZGVsJTIwZXZhbHVhdGlvbiUyMGFuZCUyMG1vZGVsJTIwb3B0aW1pemF0aW9uLiUyMFRoaXMlMjBjb3Vyc2UlMjBwcm92aWRlcyUyMGFuJTIwZW50cnklMjBwb2ludCUyMGZvciUyMHN0dWRlbnRzJTIwdG8lMjBiZSUyMGFibGUlMjB0byUyMGFwcGx5JTIwcHJvcGVyJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwYWxnb3JpdGhtcyUyMG9uJTIwYnVzaW5lc3MlMjByZWxhdGVkJTIwZGF0YXNldHMlMjB0byUyMHNvbHZlJTIwdmFyaW91cyUyMHByb2JsZW1zLiUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJBQ0NZNTc2JTJDJTIwQWNjb3VudGluZyUyMERhdGElMjBBbmFseXRpY3MlMjB3aXRoJTIwUHl0aG9uJTIwaXMlMjBhJTIwcHJlLXJlcXVpc2l0ZSUyMGZvciUyMHRoaXMlMjBjb3Vyc2UuJTIwVGhpcyUyMGNvdXJzZSUyMGlzJTIwcnVubmluZyUyMG9uJTIwdGhlJTIwc2FtZSUyMHBsYXRmb3JtJTIwKEp1cHl0ZXIlMjBOb3RlYm9vayklMjBhcyUyMHRoYXQlMjBvZiUyMEFDQ1k1NzYlMjAuJTIwV2hpbGUlMjBBQ0NZNTc2JTIwY292ZXJzJTIwZGF0YSUyMHVuZGVyc3RhbmRpbmclMjBhbmQlMjBkYXRhJTIwcHJlcGFyYXRpb24lMjBpbiUyMHRoZSUyMGRhdGElMjBhbmFseXRpY3MlMjBwcm9jZXNzJTJDJTIwQUNDWTU3NyUyMGNvdmVycyUyMHRoZSUyMG5leHQlMjB0d28lMjBzdGVwcyUyMGluJTIwdGhlJTIwcHJvY2VzcyUyQyUyMG1vZGVsaW5nJTIwYW5kJTIwbW9kZWwlMjBldmFsdWF0aW9uLiUyMCUyMFVwb24lMjBjb21wbGV0aW9uJTIwb2YlMjBBQ0NZNTc2JTIwYW5kJTIwQUNDWTU3NyUyQyUyMHN0dWRlbnRzJTIwc2hvdWxkJTIwYmUlMjBhYmxlJTIwdG8lMjBjb21wbGV0ZSUyMGFuJTIwZW50aXJlJTIwZGF0YSUyMGFuYWx5dGljcyUyMHByb2Nlc3MlMjB3aXRoJTIwUHl0aG9uLiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE"><span data-key="497"><span data-offset-key="497:0">ACCY576, Accounting Data Analytics with Python is a prerequisite for this course. This course is running on the same platform (Jupyter Notebook) as that of ACCY576 . While ACCY576 covers data understanding and data preparation in the data analytics process, ACCY577 covers the next two steps in the process, modeling and model evaluation. Upon completion of ACCY576 and ACCY577, students should be able to complete an entire data analytics process with Python.</span></span></p>
+<div role="main">
+<h2 id="a2">Goals, Objectives, and Topics</h2>
+<p>Upon successful completion of this course, you will be able to</p>
+<ul>
+<li><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJudW1iZXItbGlzdCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmF0dHJpYnV0ZXMlMjIlM0ElN0IlMjJidWxsZXRUeXBlJTIyJTNBJTIybnVtYmVycyUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMlVuZGVyc3RhbmQlMjB0aGUlMjBjb25jZXB0JTIwb2YlMjB2YXJpb3VzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwYWxnb3JpdGhtcy4lMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==" style="white-space: pre;">Understand the concept of various machine learning algorithms.</span></li>
+<li><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJudW1iZXItbGlzdCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmF0dHJpYnV0ZXMlMjIlM0ElN0IlMjJidWxsZXRUeXBlJTIyJTNBJTIybnVtYmVycyUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkFwcGx5JTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwbW9kZWxzJTIwb24lMjBkYXRhc2V0cyUyMHdpdGglMjBQeXRob24lMjBpbiUyMEp1cHl0ZXIlMjBOb3RlYm9vay4lMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==" style="white-space: pre;">Apply machine learning models on datasets with Python in Jupyter Notebook.</span></li>
+<li><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJudW1iZXItbGlzdCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmF0dHJpYnV0ZXMlMjIlM0ElN0IlMjJidWxsZXRUeXBlJTIyJTNBJTIybnVtYmVycyUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMlVuZGVyc3RhbmQlMjBtb2RlbCUyMGV2YWx1YXRpb24lMjBtZXRyaWNzLiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE" style="white-space: pre;">Understand model evaluation metrics.</span></li>
+<li><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJudW1iZXItbGlzdCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmF0dHJpYnV0ZXMlMjIlM0ElN0IlMjJidWxsZXRUeXBlJTIyJTNBJTIybnVtYmVycyUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk9wdGltaXplJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwbW9kZWxzLiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE" style="white-space: pre;">Optimize machine learning models.</span></li>
+</ul>
+<h3>Topics</h3>
+<ul>
+<li>Module 1: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkludHJvZHVjdGlvbiUyMHRvJTIwTWFjaGluZSUyMExlYXJuaW5nJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0Q=" style="white-space: pre;">Introduction to Machine Learning</span></li>
+<li>Module 2: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkZ1bmRhbWVudGFsJTIwQWxnb3JpdGhtcyUyMEklMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==" style="white-space: pre;">Fundamental Algorithms I</span></li>
+<li>Module 3: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkZ1bmRhbWVudGFsJTIwQWxnb3JpdGhtcyUyMElJJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0Q=" style="white-space: pre;">Fundamental Algorithms II</span></li>
+<li>Module 4: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk1vZGVsJTIwRXZhbHVhdGlvbiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE" style="white-space: pre;">Model Evaluation</span></li>
+<li>Module 5: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMk1vZGVsJTIwT3B0aW1pemF0aW9uJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0Q=" style="white-space: pre;">Model Optimization</span></li>
+<li>Module 6: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkludHJvZHVjdGlvbiUyMHRvJTIwVGV4dCUyMEFuYWx5c2lzJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0Q=" style="white-space: pre;">Introduction to Text Analysis</span></li>
+<li>Module 7: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkludHJvZHVjdGlvbiUyMHRvJTIwQ2x1c3RlcmluZyUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTVEJTdE" style="white-space: pre;">Introduction to Clustering</span></li>
+<li>Module 8: <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkludHJvZHVjdGlvbiUyMHRvJTIwVGltZSUyMFNlcmllcyUyMERhdGElMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==" style="white-space: pre;">Introduction to Time Series Data</span></li>
+</ul>
+<h2 id="a3">Materials</h2>
+<h3>Textbook</h3>
+<p>There is no required textbook. The lesson contents are created in Jupyter Notebooks.</p>
+<h3>Readings</h3>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMlRoZXJlJTIwaXMlMjBubyUyMHJlcXVpcmVkJTIwcmVhZGluZ3MlMjBvdGhlciUyMHRoYW4lMjB0aGUlMjBsZXNzb24lMjBub3RlYm9va3MuJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0Q=" style="white-space: pre;">There is no required readings other than the lesson notebooks.</span></p>
+<p><a href="#a11" style="font-size: 13px;">(Back to Top)</a></p>
+<h2 id="a4">Elements of the Course</h2>
+<p>This University of Illinois course for graduate credit or academic credit will be conducted through two platforms: (1) the <a href="https://compass2g.illinois.edu/" target="_blank">Illinois Compass 2g course management system</a>, which will be your main point of contact, and (2) the Coursera Massive Open Online Course (MOOC) platform where you will need to register and complete one MOOC brought to you by the University of Illinois. The Coursera MOOC is titled <a href="https://www.coursera.org/learn/machine-learning-accounting-python/home/welcome" target="_blank">Machine Learning for Accounting with Python</a>.</p>
+<h3>Live Sessions</h3>
+<ul>
+<li>Tuesdays, 8:30 AM–10:00 AM and 8:15 PM–9:45 PM US Central Time
+<ul>
+<li>These sessions are designed to mainly discuss cases, readings, and assignments from just completed module(s) and to preview the same from immediately upcoming module(s).</li>
+</ul>
+</li>
+<li>In order to get more value from this course, try to fit these live sessions into your schedule and participate.</li>
+<li>Live sessions will be recorded, and the recordings will generally be available within one hour after the last live session concludes.</li>
+</ul>
+<h3>Office Hours</h3>
+<ul>
+<li>Fridays 7:00 to 8:00 PM US Central Time and by appointment</li>
+<li>The office hours provide students an additional opportunity to log in and ask questions, and thus, they serve as an additional resource to the discussion forums.</li>
+<li>These times will be open and informal for student questions and will not be recorded.</li>
+</ul>
+<p><a href="#a11">(Back to Top)</a></p>
+<h2 id="a5">Assignments, Exams, and Grading</h2>
+<h3>Assignment and Exam Information</h3>
+<ul>
+<ul>
+<li><strong>Live Session Quizzes  </strong><span style="color: #000000; font-family: Times; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">There will be a short quiz during every live session. These quizzes assess your understanding of the Coursera material as well as ask for your opinions. We will use the quiz results to guide the live session discussions. If you're not able to attend either of the live sessions, a link will be posted so that you can take the quiz at a time that's convenient for you as long as it's before the deadline.</span></li>
+<li><strong></strong><strong style="color: #000000; font-family: Times; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">HE (High Engagement) Programming Assignment </strong><span style="color: #000000; font-family: Times; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">These programming assignments (based on Jupyter Notebooks) are similar to and an extension of the Jupyter Notebook assignments that are posted on Coursera. Specifically, you will be asked to perform a greater number of coding tasks that require more thought than the tasks in the Jupyter Notebook assignments on Coursera. It is intended that you complete these notebook assignments after having completed the module's Coursera material and after either attending the live session or viewing the live session recording and before the deadline.</span></li>
+<li><strong></strong><strong style="color: #000000; font-family: Times; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Final Project </strong><span style="color: #000000; font-family: Times; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">The final project will give you an opportunity to go through the CRISP-DM framework for analyzing financial data in Python. You will be given a dataset and will be asked to perform a number of tasks associated with understanding, preparing the data, creating, evaluating and optimizing machine learning models.  The final project is a group project and each group has 4-5 students. This final project will be made available during the week of module 4.</span></li>
+</ul>
+</ul>
+<p></p>
+<h3>Grading</h3>
+<p>In order to pass this for-credit course, you <strong>MUST</strong> pass <strong>the associated Coursera course with a Course Certificate.</strong><strong> Failure to pass the Coursera MOOC by the indicated deadlines </strong>will result in a final grade of "<strong>F</strong>" for this for-credit course. Your final grade on this University of Illinois graduate-credit course will be based on the total percentage of points accumulated in the following:</p>
+<table border="1"><caption>Grade Distribution</caption>
+<tbody>
+<tr><th scope="col">Student Performance Components</th><th scope="col">Quantity</th><th scope="col">Module</th><th scope="col">Points</th><th scope="col">Total</th></tr>
+<tr>
+<td style="text-align: center;">Live Session Quiz</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">1-8</td>
+<td style="text-align: center;">80 (10 per week)</td>
+<td style="text-align: center;">8%</td>
+</tr>
+<tr>
+<td style="text-align: center;">HE Jupyter Notebooks</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">1-8</td>
+<td style="text-align: center;">640 (80/each)</td>
+<td style="text-align: center;">64%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Final Project</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">280</td>
+<td style="text-align: center;">28%</td>
+</tr>
+<tr>
+<td colspan="4" style="text-align: center;">Total</td>
+<td style="text-align: center;">100%</td>
+</tr>
+</tbody>
+</table>
+<p>If you have further questions about the Grading System at University of Illinois, feel free to refer to the <a href="http://www.grad.illinois.edu/gradhandbook/2/chapter3/grading-system" target="_blank">Graduate College Student Handbook Ch3</a>.</p>
+<p>If you have any questions about your grades, please submit your request to <a href="mailto:imsa-support@illinois.edu">imsa-support@illinois.edu</a>, including your specific grade related questions, and any justification you wish to provide to support your request. You have 48 hours from when the grades are released to submit your questions. After 48 hours grades are considered final. It is important to be aware that your grade might go up, stay the same, or go down during the review process.</p>
+<h3>Grading Scale</h3>
+<p>Your points will be converted to letter grades based on the tentative schedule below:</p>
+<table border="1">
+<tbody>
+<tr>
+<td>Letter Grade</td>
+<td>Points</td>
+<td>Letter Grade</td>
+<td>Points</td>
+</tr>
+<tr>
+<td>A+</td>
+<td>970 points or more</td>
+<td>C+</td>
+<td>770-799</td>
+</tr>
+<tr>
+<td>A</td>
+<td>930-969</td>
+<td>C</td>
+<td>730-769</td>
+</tr>
+<tr>
+<td>A-</td>
+<td>900-929</td>
+<td>C-</td>
+<td>700-729</td>
+</tr>
+<tr>
+<td>B+</td>
+<td>870-899</td>
+<td>D</td>
+<td>600-699</td>
+</tr>
+<tr>
+<td>B</td>
+<td>830-869</td>
+<td>F</td>
+<td>Less than 600 points</td>
+</tr>
+<tr>
+<td>B-</td>
+<td>800-829</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h3>Deadlines</h3>
+<p><strong>The deadline of the assignments in this course is at the end of the module, which is 11:59 PM US Central Time, Sundays.</strong> Any exception will be specified in the course schedule.</p>
+<p>Each module starts on Monday and ends on Sunday in the iMSA courses.</p>
+<p>Please pay special attention to the deadlines posted here in Compass2g. These are the hard deadlines for all activities in this Compass course. You will also see deadlines posted in Coursera or in emails from Coursera; those are suggested deadlines that your instructor expects you to follow in order to prepare you for the weekly assignments in the Compass course. These may differ from the deadlines posted in Compass. In cases of mismatch, Compass is the source of truth for all course deadlines. The hard deadline for MOOC assignments is the end of this 8-week Compass2g course. In another word, by the end of this course, you should finish both MOOC assignments and Compass2g assignments by the end of module 8. </p>
+<p>At the start of any course, read and know the course syllabus and note <strong>all deadlines</strong> for assignments, and exam requirements including any exams or assignments that have time limits. The iMSA program has strict rules around deadlines and submissions.</p>
+<p><strong>Late submissions of assignments made within one week after the deadline will be accepted with a 25% penalty. Submissions made more than one week after the deadline will not be accepted. Any exceptions will be at the discretion of the program. Faculty will determine the extension deadline for approved exceptions. Once the answer key is posted, late submissions are not accepted for any reason.</strong> When at all possible, requests for an exception should be made <strong>BEFORE</strong> the assignment deadline.</p>
+<p>Students who experience a serious extenuating circumstance beyond their control that prevents submission of an assignment or exam may request an exception to this policy by providing documentation of the extenuating circumstance to the online program at <a href="mailto:imsa-support@illinois.edu">imsa-support@illinois.edu</a>.</p>
+<p>Extenuating circumstances that may result in an exception:</p>
+<ul>
+<li>Unforeseen hospitalization of the student or an immediate family member (spouse, child, or parent)</li>
+<li>Death of an immediate family member</li>
+<li>Another similar event (natural disaster, etc.)</li>
+</ul>
+<p>Circumstances that would not warrant an exception includes business travel, minor illnesses, internet access, etc. Such requests will not be granted. We ask you to plan in advance if there is uncertainty in your schedule or course work environment.</p>
+<p>For additional information about rules and policies established by the University, please refer to the Student Code at <a href="http://studentcode.illinois.edu/article1/part5/1-501/" title="Student Code" target="_blank">http://studentcode.illinois.edu/article1/part5/1-501/</a></p>
+<p><a href="#a11">(Back to Top)</a></p>
+<h2 id="a6">Communication</h2>
+<p>Please post any questions or comments about course content or course logistics on the Class Q&amp;A discussion forum in Compass2g. This forum can be found in the Course Communication Tools folder and can be accessed using the link in the menu on the left. This forum will be monitored regularly by course support staff. Feel free to respond to the questions and comments posted by your classmates as well. In the forums, do not make postings which reveal the answers to or questions contained within quizzes and exams. <strong>Please do not post your grades or questions related to grades in this forum</strong></p>
+<p>Any questions or comments about the technology tools used in the course should be sent to <a href="mailto:imsa-support@illinois.edu">imsa-support@illinois.edu</a>. If you are having a technical issue, please provide as many details as possible, including the operating system and browser you are using, and screen shots. In general, it always helps to update operating systems and browsers.</p>
+<h2 id="a7">University Honor Code</h2>
+<p>Academic integrity and honesty are essential and non-negotiable. It is your duty to not only understand and abide by University guidelines (Read Article I, Part 4: Academic Integrity of the Illinois <a href="http://www.admin.uiuc.edu/policy/code/" target="_blank">Student Code</a> but also to promote a culture of ethical behavior within your group and class. Ignorance is not an excuse for any academic dishonesty. Violations will be handled via Department, School, and University policies.)</p>
+<p>According to the University policy, violation of academic integrity is a serious offense. Violations of academic integrity include, but are not limited to the following examples. In the context of all assignments in this course, violating academic integrity is copying of answers from other students or any other source, rather than authoring them. Other violations of academic integrity include sharing exams with others and posting exams or exam questions online. Quoting from other sources, including course readings and transcripts, with proper citation is permitted, but that cannot be the entire answer. Quotations may only constitute part of your answer, and must be merely for clarification or documentation purposes. Your answers must show that you have understood the material and can argue the case on your own. Anyone found in violation of academic integrity in this course will be subject to the penalties discussed in the <a href="http://www.admin.uiuc.edu/policy/code/" target="_blank">Student Code</a>. These penalties include, among others, failure for the course or dismissal from the University.</p>
+<h2 id="a8">Disability Resources and Educational Services</h2>
+<p>To obtain disability-related academic adjustments and/or auxiliary aids, students with disabilities must contact the course instructor and the Disability Resources and Educational Services (DRES) as soon as possible. To contact DRES, you may visit 1208 S. Oak St., Champaign, call 217-333-4603 (V/TDD), or e-mail a message to <a href="mailto:disability@illinois.edu">disability@illinois.edu</a>.</p>
+<p>To ensure that disability-related concerns are properly addressed from the beginning, students with disabilities who require assistance to participate in this class are asked to see the instructor as soon as possible.</p>
+<h3>Media Captions</h3>
+<p>The Gies media in this course are captioned/transcribed using a machine-based tool. While not perfect, this provides a first step to usable text support for accessibility and keyword search. If you find that a caption or transcript for any video in this course has errors, please let us know. Contact us via email at <a href="mailto: giesmedia@business.illinois.edu" title="captions contact" target="_blank">giesmedia@business.illinois.edu</a>. In that email include the name of the video and the course where the video is used. We are working to make our transcriptions better. Thank you for helping us create a great experience for everyone.</p>
+<p><a href="#a11">(Back to Top)</a></p>
+</div>
