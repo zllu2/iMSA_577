@@ -94,7 +94,7 @@ module 3 itemid: gfjyw launchid:xa0LG
 module 4 itemid: lgFvU launchid:EP2fk
 module 5 itemid: UJfSA launchid:TMKNf
 module 6 itemid: w2uye launchid:Bp0aI
-module 7 itemid: stwVH launchid:IqhqT
+module 7 itemid: 1P2Ca launchid:IqhqT
 module 8 itemid: nRoA5 launchid:V4QmL
 
 
