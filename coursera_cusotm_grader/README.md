@@ -114,3 +114,8 @@ files.extractall('.')
 files.close()
 ```
 # if create readonly folder, delete coursera part in assignment notebook metadata.
+
+# High Engagement Assignment Server setup
+1. Install scikit-learn(sklearn) and nltk
+2. Add modules to formgrader, upload notebook and data files
+3. Generate release

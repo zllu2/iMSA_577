@@ -1,5 +1,14 @@
 # iMSA_577: Machine Learning for Accounting
 
+Server Packages
+- nltk
+- nltk corpora data
+- graphviz
+- matplotlib
+- seaborn
+- sklearn
+  Important: Different versions have different default parameter values. Don't check exact values for accuracy score or validation scores.
+
 This is an 8 module course. Each module contains:
 - One introduction video
 - Three lessons, each lesson contains:
