@@ -67,8 +67,8 @@ Choices: ...
 
 - Question 7.1: In which module is cross_val_score defined?
   - Type: Multiple Choice (Single Answer)
-  - Answer: sklearn.feature_selection
-  - Choices: sklearn.feature_selection; sklearn.preprocessing
+  - Answer: sklearn.model_selection
+  - Choices: sklearn.model_selection; sklearn.preprocessing
 - Question 7.2: True or False: cross_val_score function supports calculating score with different scorers.
   - Type: Multiple Choice (Single Answer)
   - Answer: True
