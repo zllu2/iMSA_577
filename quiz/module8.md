@@ -66,7 +66,7 @@ Choices: ...
 # Lesson 2
 - Question 7.1: Which pandas function convert a column of datetime object to a datetime index?
   - Type: Multiple choice (single correct response)
-  - Answer: to_datetime()
+  - Answer: DatetimeIndex()
   - Choices: to_datetime(); strptime(); DatetimeIndex()
 - Question 7.2: True or False? A time series data is a series of data points indexed in time order.
   - Type: Multiple choice (single correct response)
