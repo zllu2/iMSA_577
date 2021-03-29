@@ -35,8 +35,8 @@ Choices: ...
   - Choices: coef_; coef; intercept_; intercept
 - Question 4.1: In which module is function dmatrices() defined in?
   - Type: Multiple choice (single correct responses)
-  - Answer: pasty
-  - Choices: sklean; pasty; pts;
+  - Answer: patsy
+  - Choices: sklean; patsy; pts;
 - Question 4.2: If we use train_test_split with test_size=0.4 to split a dataset which has 1000 observations, what is the size of the testing set?
   - Type: Multiple choice (single correct responses)
   - Answer: 400
