@@ -22,7 +22,7 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: nltk.corpus
   - Choices: nltk.corpus; nltk.stem; sklearn.feature_extraction.text
-- Question 2.1: In which module is PotterStemmer defined?
+- Question 2.1: In which module is PorterStemmer defined?
   - Type: Multiple choice (single correct response)
   - Answer: nltk.stem
   - Choices: nltk.corpus; nltk.stem; sklearn.feature_extraction.text

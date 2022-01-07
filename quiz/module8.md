@@ -79,7 +79,7 @@ Choices: ...
   - Choices: rolling(); sampling(); resample();
 - Question 8.2: Which DataFrame function resample a time series dataframe?
   - Type: Multiple Choice (Single Correct Answer)
-  - Answer: rolling()
+  - Answer: resample()
   - Choices: rolling(); sampling(); resample();
 
 - Question 9.1: Which resample code represents "business day frequency"?

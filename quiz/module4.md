@@ -22,11 +22,11 @@ Choices: ...
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 2.2: True of False? Mean Absolute Error is sensitive to outliers.
+- Question 2.2: True of False? Mean Absolute Error is as sensitive to outliers as Mean Squared Error is.
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False
-- Question 2.3: True of False? Mean Absolute Error is NOT sensitive to outliers.
+- Question 2.3: True of False? Mean Absolute Error is NOT as sensitive to outliers as Mean Squared Error is.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
@@ -35,15 +35,15 @@ Choices: ...
   - Answer: True
   - Choices: True, False
 
-- Question 3.1: True of False? Each residual contributes quadratically to the Mean Absolute Error.
+- Question 3.1: True of False? Each residual contributes quadratically to the Mean Squared Error.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: True, False
-- Question 3.2: True or False? Mean Squared Error is sensitive to outliers.
+- Question 3.2: True or False? Mean Squared Error is more sensitive to outliers than Mean Absolute Error is.
   - Type: Multiple choice (single correct response)
   - Answer: True
   - Choices: False
-- Question 3.3: True or False? Mean Squared Error is NOT sensitive to outliers.
+- Question 3.3: True or False? Mean Squared Error is NOT as sensitive to outliers as Mean Absolute Error is.
   - Type: Multiple choice (single correct response)
   - Answer: False
   - Choices: True, False
